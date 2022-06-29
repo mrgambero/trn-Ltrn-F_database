@@ -16,7 +16,7 @@ crabs db_download --source ncbi --database nucleotide --query '((((trnL-trnF[All
 
 ### Third step, insilico PCR (optional)
 ```
-crabs insilico_pcr --input lach.fasta --output output.fasta --fwd AGTC --rev ACTG --error 4.5
+crabs insilico_pcr --input lach.fasta --output output.fasta --fwd GGTTCAAGTCCCTCTATCCC --rev ATTTGAACTGGTGACACGAG --error 4.5
 ```
 
 ### 4th step, assign taxonomy
